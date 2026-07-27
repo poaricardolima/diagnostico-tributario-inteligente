@@ -4,7 +4,6 @@ import { DiagnosticoFunil } from "@/components/diagnostico/funil";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
 import { Hero } from "@/components/hero";
-import { ProvaSocial } from "@/components/prova-social";
 
 export default function HomePage() {
   return (
@@ -12,7 +11,6 @@ export default function HomePage() {
       <Header />
       <Hero />
       <Beneficios />
-      <ProvaSocial />
       <Suspense
         fallback={
           <section className="bg-slate-50 py-16 text-center text-slate-500">
