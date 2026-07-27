@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 200" role="img" aria-label="Impulso Criativo">
+  <defs>
+    <style>
+      .word { font-family: Montserrat, Arial Black, Arial, sans-serif; font-weight: 800; fill: #F2D648; }
+      .sub { font-family: Montserrat, Arial, sans-serif; font-weight: 400; fill: #F2D648; letter-spacing: 0.18em; }
+    </style>
+  </defs>
+  <text class="word" x="0" y="95" font-size="72">IMPULS</text>
+  <g transform="translate(292 28)">
+    <path fill="#F2D648" d="M72 72a60 60 0 1 1 0-120 60 60 0 0 1 0 120zm0-24a36 36 0 1 0 0-72 36 36 0 0 0 0 72z"/>
+    <path fill="#F2D648" d="M18 78l-14 22h12l10-16zm18 8l-12 28h12l10-22zm18 6l-8 26h12l6-20z"/>
+  </g>
+  <text class="sub" x="8" y="150" font-size="28">CRIATIVO</text>
+</svg>
