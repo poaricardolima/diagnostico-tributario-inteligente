@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Plus_Jakarta_Sans } from "next/font/google";
+import { MetaPixel } from "@/components/meta-pixel";
 import "./globals.css";
 
 const plusJakarta = Plus_Jakarta_Sans({
@@ -54,6 +55,7 @@ export default function RootLayout({
       <body
         className={`${plusJakarta.variable} font-sans antialiased overflow-x-hidden`}
       >
+        <MetaPixel />
         {children}
       </body>
     </html>
